@@ -1,0 +1,44 @@
+[
+  {
+    "repo": "sample_app",
+    "decision": "ALLOW",
+    "reasons": [],
+    "status": "DEPLOYED",
+    "timestamp": "2026-01-30T19:44:50.662978"
+  },
+  {
+    "repo": "sample_app",
+    "decision": "ALLOW",
+    "reasons": [],
+    "status": "ROLLED_BACK",
+    "timestamp": "2026-01-30T19:45:51.836407"
+  },
+  {
+    "repo": "sample_app",
+    "decision": "ALLOW",
+    "reasons": [],
+    "status": "CHECK_ONLY",
+    "timestamp": "2026-01-30T19:49:37.057845"
+  },
+  {
+    "repo": "sample_app",
+    "decision": "ALLOW",
+    "reasons": [],
+    "status": "ROLLED_BACK",
+    "timestamp": "2026-01-30T19:49:46.118382"
+  },
+  {
+    "repo": "examples/sample_app",
+    "decision": "ALLOW",
+    "reasons": [],
+    "status": "CHECK_ONLY",
+    "timestamp": "2026-01-30T19:53:46.726035"
+  },
+  {
+    "repo": "examples/sample_app",
+    "decision": "ALLOW",
+    "reasons": [],
+    "status": "ROLLED_BACK",
+    "timestamp": "2026-01-30T19:53:57.697986"
+  }
+]

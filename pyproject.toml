@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pre-deploy-guardian"
+version = "0.1.0"
+description = "DevOps Helper Agent – Pre-Deploy Guardian"
+authors = [
+  { name = "Saifudheen PV" }
+]
+dependencies = [
+  "typer",
+  "rich"
+]
+
+[tool.setuptools.packages.find]
+include = ["guardian*"]
+
+[project.scripts]
+guardian = "guardian.cli.commands:start"
